@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buton_yuksekligi">100dp</dimen>
+    <dimen name="linear_margin">20dp</dimen>
+    <dimen name="bosluk_margin">10dp</dimen>
+
+</resources>

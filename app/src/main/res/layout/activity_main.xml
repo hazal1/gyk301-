@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/linear_margin">
+
+        <Button
+            android:onClick="FotografVideoCek"
+            style="@style/buton_style"
+            android:layout_marginRight="@dimen/bosluk_margin"
+            android:id="@+id/fotografvideo"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi"
+            android:text="@string/fotograf_video"
+            android:background="@color/yesil" />
+        <Button
+            android:onClick="sesKayit"
+            style="@style/buton_style"
+            android:layout_weight="1"
+            android:id="@+id/seskayit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi"
+            android:text="@string/ses_kayit"
+            android:background="@color/mavi"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/linear_margin">
+
+        <Button
+            android:onClick="HaritayaGit"
+            style="@style/buton_style"
+            android:layout_marginRight="@dimen/bosluk_margin"
+            android:id="@+id/haritayagit"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi"
+            android:text="@string/haritaya_git"
+            android:background="@color/mor" />
+        <Button
+            android:onClick="Webegit"
+            style="@style/buton_style"
+            android:layout_weight="1"
+            android:id="@+id/webgit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi"
+            android:text="@string/web_git"
+            android:background="@color/turuncu"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/linear_margin">
+
+        <Button
+            android:onClick="smsGonder"
+            style="@style/buton_style"
+            android:layout_marginRight="@dimen/bosluk_margin"
+            android:id="@+id/smsgonder"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi"
+            android:text="@string/sms_gonder"
+            android:background="@color/sari" />
+        <Button
+            android:onClick="AramaYap"
+            style="@style/buton_style"
+            android:layout_weight="1"
+            android:id="@+id/aramayap"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi"
+            android:text="@string/arama_yap"
+            android:background="@color/kirmizi"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

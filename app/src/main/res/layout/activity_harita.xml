@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HaritaActivity">
+
+
+
+    <ImageView
+        android:id="@+id/haritaview"
+        android:layout_marginTop="@dimen/linear_margin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_gravity="center"/>
+
+    <Button
+        android:onClick="haritaya_git"
+        android:layout_marginTop="@dimen/linear_margin"
+        android:textColor="@color/beyaz"
+        android:background="@color/colorAccent"
+        android:text="İstanbul'a Git"
+        android:id="@+id/harita_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
